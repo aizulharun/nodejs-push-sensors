@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-push-sensors",
+  "version": "0.1.2",
+  "description": "nodejs-MySQL-push-notifications-demo",
+  "main": "server.js",
+  "dependencies": {
+    "mysql": "~2.0.0-alpha9",
+    "socket.io": "~0.9.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GianlucaGuarini/nodejs-MySQL-push-notifications-demo.git"
+  },
+  "author": "aizulharun",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/aizulharun/nodejs-push-sensors"
+  },
+  "homepage": "https://github.com/aizulharun/nodejs-push-sensors"
+}
