@@ -7,7 +7,7 @@ var app = require('http').createServer(handler),
     host: 'bni9i03dtroqa89a.mysql.clvrcld.net',
     user: 'uvh1ibm3i524l4bt',
     password: '50ca3b605c71431ab264482afb25308d',
-    database: 'nodejs',
+    database: 'bni9i03dtroqa89a',
     port: 3306
   }),
   POLLING_INTERVAL = 3000,
