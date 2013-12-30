@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/GianlucaGuarini/nodejs-MySQL-push-notifications-demo.git"
+    "url": "git+ssh://git@push.clever-cloud.com/app_57108090-1dda-4ab5-acc7-4874ee13c973.git"
   },
   "author": "aizulharun",
   "license": "BSD-2-Clause",
