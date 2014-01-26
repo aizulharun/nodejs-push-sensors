@@ -21,7 +21,7 @@ connection.connect(function(err) {
 
 // creating the server ( localhost:8000 )
 //app.listen(process.env.VMC_APP_PORT || 1337, null);
-app.listen(8000);
+app.listen(8080);
 
 // on server started we can load our client.html page
 function handler(req, res) {
