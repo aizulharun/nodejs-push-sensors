@@ -47,7 +47,7 @@ function handler(req, res) {
 var pollingLoop = function() {
 
   // Doing the database query
-  var query = connection.query('SELECT * FROM sensorparser order by `frame_number` DESC LIMIT 3'),
+  var query = connection.query('SELECT * FROM sensorparser order by `frame_number` DESC LIMIT 4'),
     users = []; // this array will contain the result of our db query
 
   // setting the query listeners
