@@ -191,12 +191,13 @@ Do the following if you're using your customized build of modernizr (http://www.
 <!-- End Navitop -->
 <!-- Begin Content -->
 <div id="nota1">
-<p><strong> Station ID: N01 </strong></p>
-<p><strong> Location: Project 01 </strong></p>
-<p><strong> Monitoring Parameters: Air (PM10) and Noise (dBA) </strong></p>
-<p><strong> Threshold Limits:</br>
+<br><strong> Station ID: N01 </strong></br>
+<br><strong> Location: Project 01 </strong></br>
+<br><strong> Monitoring Parameters: Air (PM10) and Noise (dBA) </strong></br>
+<br><strong> Threshold Limits:</br>
 Air (PM10) = 0.25mg/m3 and Noise (dBA) = 80dBA </strong></p>
 </div>
+<div id="nota3">
  <time></time>
     <div id="container">Loading ...</div>
     <script src="socket.io/socket.io.js"></script>
@@ -204,7 +205,7 @@ Air (PM10) = 0.25mg/m3 and Noise (dBA) = 80dBA </strong></p>
     <script>
 
         // create a new websocket
-        var socket = io.connect('http://http://ensocs.cleverapps.io');
+        var socket = io.connect('http://app-57108090-1dda-4ab5-acc7-4874ee13c973.cleverapps.io');
         // on message received we print all the data inside the #container div
         socket.on('notification', function (data) {
         var usersList = "<dl>";
