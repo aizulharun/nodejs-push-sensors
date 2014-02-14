@@ -25,11 +25,11 @@ app.listen(8080);
 
 // on server started we can load our client.html page
 function handler(req, res) {
-  fs.readFile(__dirname + '/sensors4.html', function(err, data) {
+  fs.readFile(__dirname + '/sensors5.html', function(err, data) {
     if (err) {
       console.log(err);
       res.writeHead(500);
-      return res.end('Error loading sensors4.html');
+      return res.end('Error loading sensors5.html');
     }
     res.writeHead(200);
     res.end(data);
