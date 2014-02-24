@@ -10,7 +10,7 @@ var app = require('http').createServer(handler),
     database: 'b4to7kf7lei1vlu5',
     port: 3306
   }),
-  POLLING_INTERVAL = 3000,
+  POLLING_INTERVAL = 60000,
   pollingTimer;
 
 // If there is an error connecting to the database
@@ -47,7 +47,7 @@ function handler(req, res) {
 var pollingLoop = function() {
 
   // Doing the database query
-  var query = connection.query('SELECT * FROM sensorparser order by `frame_number` DESC LIMIT 3'),
+  var query = connection.query('SELECT * FROM sensorparser order by `id` DESC LIMIT 3'),
     users = []; // this array will contain the result of our db query
 
   // setting the query listeners
