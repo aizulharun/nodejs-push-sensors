@@ -10,7 +10,7 @@ var app = require('http').createServer(handler),
     database: 'b4to7kf7lei1vlu5',
     port: 3306
   }),
-  POLLING_INTERVAL = 60000,
+  POLLING_INTERVAL = 3000,
   pollingTimer;
 
 // If there is an error connecting to the database
